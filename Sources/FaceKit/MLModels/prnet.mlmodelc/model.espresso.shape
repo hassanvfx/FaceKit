@@ -1,0 +1,514 @@
+{
+  "layer_shapes" : {
+    "resfcn256\/resBlock_9\/Relu:0" : {
+      "k" : 512,
+      "w" : 8,
+      "n" : 1,
+      "h" : 8
+    },
+    "resfcn256\/resBlock_7\/BatchNorm\/FusedBatchNorm:0" : {
+      "k" : 256,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "resfcn256\/Conv2d_transpose_8\/Relu:0" : {
+      "k" : 64,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "resfcn256\/Conv2d_transpose_15\/Relu:0" : {
+      "k" : 3,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "resfcn256\/resBlock_3\/add:0" : {
+      "k" : 64,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "resfcn256\/resBlock_7\/add:0" : {
+      "k" : 256,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "resfcn256\/resBlock_1\/Conv_1\/Relu:0" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "resfcn256\/resBlock\/Conv_2\/Conv2D:0" : {
+      "k" : 32,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "resfcn256\/resBlock_5\/Conv\/Relu:0" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "resfcn256\/resBlock_8\/Relu:0" : {
+      "k" : 512,
+      "w" : 8,
+      "n" : 1,
+      "h" : 8
+    },
+    "resfcn256\/resBlock\/Relu:0" : {
+      "k" : 32,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "resfcn256\/resBlock_9\/BatchNorm\/FusedBatchNorm:0" : {
+      "k" : 512,
+      "w" : 8,
+      "n" : 1,
+      "h" : 8
+    },
+    "resfcn256\/Conv2d_transpose_14\/Relu:0" : {
+      "k" : 3,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "resfcn256\/resBlock_7\/Relu:0" : {
+      "k" : 256,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "resfcn256\/resBlock_8\/shortcut\/Conv2D:0" : {
+      "k" : 512,
+      "w" : 8,
+      "n" : 1,
+      "h" : 8
+    },
+    "resfcn256\/resBlock_1\/Conv_2\/Conv2D:0" : {
+      "k" : 32,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "resfcn256\/Conv2d_transpose_3\/Relu:0" : {
+      "k" : 256,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "resfcn256\/Conv2d_transpose_13\/Relu:0" : {
+      "k" : 16,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "resfcn256\/resBlock_2\/Conv\/Relu:0" : {
+      "k" : 32,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "resfcn256\/resBlock_6\/Relu:0" : {
+      "k" : 256,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "resfcn256\/resBlock_9\/Conv_1\/Relu:0" : {
+      "k" : 256,
+      "w" : 8,
+      "n" : 1,
+      "h" : 8
+    },
+    "resfcn256\/resBlock_2\/Conv_2\/Conv2D:0" : {
+      "k" : 64,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "resfcn256\/Conv\/Relu:0" : {
+      "k" : 16,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "resfcn256\/resBlock\/Conv\/Relu:0" : {
+      "k" : 16,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "resfcn256\/Conv2d_transpose_12\/Relu:0" : {
+      "k" : 16,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "resfcn256\/resBlock_5\/Relu:0" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "resfcn256\/resBlock_6\/Conv_1\/Relu:0" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "resfcn256\/Conv2d_transpose_6\/Relu:0" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "resfcn256\/resBlock_2\/add:0" : {
+      "k" : 64,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "resfcn256\/resBlock_2\/BatchNorm\/FusedBatchNorm:0" : {
+      "k" : 64,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "resfcn256\/resBlock_7\/Conv\/Relu:0" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "resfcn256\/resBlock_3\/Conv_2\/Conv2D:0" : {
+      "k" : 64,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "resfcn256\/resBlock_6\/add:0" : {
+      "k" : 256,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "resfcn256\/resBlock_4\/Relu:0" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "resfcn256\/Conv2d_transpose_11\/Relu:0" : {
+      "k" : 32,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "resfcn256\/Conv2d_transpose_16\/BatchNorm\/FusedBatchNorm:0" : {
+      "k" : 3,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "resfcn256\/resBlock_3\/Conv_1\/Relu:0" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "resfcn256\/resBlock_4\/Conv_2\/Conv2D:0" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "resfcn256\/resBlock_4\/BatchNorm\/FusedBatchNorm:0" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "resfcn256\/resBlock\/Conv_1\/Relu:0" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "resfcn256\/resBlock_3\/Relu:0" : {
+      "k" : 64,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "resfcn256\/Conv2d_transpose_9\/Relu:0" : {
+      "k" : 64,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "resfcn256\/Conv2d_transpose_10\/Relu:0" : {
+      "k" : 32,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "resfcn256\/Conv2d_transpose_1\/Relu:0" : {
+      "k" : 256,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "resfcn256\/resBlock_6\/shortcut\/Conv2D:0" : {
+      "k" : 256,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "resfcn256\/resBlock_4\/Conv\/Relu:0" : {
+      "k" : 64,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "resfcn256\/resBlock_2\/Relu:0" : {
+      "k" : 64,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "resfcn256\/resBlock_5\/Conv_2\/Conv2D:0" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "resfcn256\/resBlock_6\/BatchNorm\/FusedBatchNorm:0" : {
+      "k" : 256,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "resfcn256\/resBlock_1\/Relu:0" : {
+      "k" : 32,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "resfcn256\/resBlock_6\/Conv_2\/Conv2D:0" : {
+      "k" : 256,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "resfcn256\/resBlock_1\/add:0" : {
+      "k" : 32,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "resfcn256\/Conv2d_transpose_4\/Relu:0" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "resfcn256\/resBlock\/BatchNorm\/FusedBatchNorm:0" : {
+      "k" : 32,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "resfcn256\/resBlock_5\/add:0" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "resfcn256\/resBlock_8\/Conv_1\/Relu:0" : {
+      "k" : 256,
+      "w" : 8,
+      "n" : 1,
+      "h" : 8
+    },
+    "resfcn256\/resBlock_1\/Conv\/Relu:0" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "resfcn256\/resBlock_8\/BatchNorm\/FusedBatchNorm:0" : {
+      "k" : 512,
+      "w" : 8,
+      "n" : 1,
+      "h" : 8
+    },
+    "resfcn256\/resBlock_9\/Conv\/Relu:0" : {
+      "k" : 256,
+      "w" : 8,
+      "n" : 1,
+      "h" : 8
+    },
+    "resfcn256\/resBlock_7\/Conv_2\/Conv2D:0" : {
+      "k" : 256,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "resfcn256\/resBlock_9\/add:0" : {
+      "k" : 512,
+      "w" : 8,
+      "n" : 1,
+      "h" : 8
+    },
+    "resfcn256\/resBlock_5\/Conv_1\/Relu:0" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "resfcn256\/Conv2d_transpose_7\/Relu:0" : {
+      "k" : 64,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "Placeholder__0" : {
+      "k" : 3,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "resfcn256\/resBlock_8\/Conv_2\/Conv2D:0" : {
+      "k" : 512,
+      "w" : 8,
+      "n" : 1,
+      "h" : 8
+    },
+    "resfcn256\/resBlock_6\/Conv\/Relu:0" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "resfcn256\/resBlock_2\/Conv_1\/Relu:0" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "resfcn256\/resBlock_4\/shortcut\/Conv2D:0" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "resfcn256\/resBlock_1\/BatchNorm\/FusedBatchNorm:0" : {
+      "k" : 32,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "resfcn256\/resBlock_9\/Conv_2\/Conv2D:0" : {
+      "k" : 512,
+      "w" : 8,
+      "n" : 1,
+      "h" : 8
+    },
+    "resfcn256\/Conv2d_transpose_2\/Relu:0" : {
+      "k" : 256,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "resfcn256\/resBlock_4\/add:0" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "resfcn256\/resBlock_8\/add:0" : {
+      "k" : 512,
+      "w" : 8,
+      "n" : 1,
+      "h" : 8
+    },
+    "resfcn256\/resBlock_3\/Conv\/Relu:0" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "resfcn256__Conv2d_transpose_16__Sigmoid__0" : {
+      "k" : 3,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "resfcn256\/resBlock_3\/BatchNorm\/FusedBatchNorm:0" : {
+      "k" : 64,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "resfcn256\/Conv2d_transpose\/Relu:0" : {
+      "k" : 512,
+      "w" : 8,
+      "n" : 1,
+      "h" : 8
+    },
+    "resfcn256\/Conv2d_transpose_5\/Relu:0" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "resfcn256\/resBlock_5\/BatchNorm\/FusedBatchNorm:0" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "resfcn256\/resBlock_7\/Conv_1\/Relu:0" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "resfcn256\/resBlock_8\/Conv\/Relu:0" : {
+      "k" : 256,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "resfcn256\/resBlock\/add:0" : {
+      "k" : 32,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "resfcn256\/resBlock\/shortcut\/Conv2D:0" : {
+      "k" : 32,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "resfcn256\/resBlock_2\/shortcut\/Conv2D:0" : {
+      "k" : 64,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "resfcn256\/resBlock_4\/Conv_1\/Relu:0" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    }
+  }
+}

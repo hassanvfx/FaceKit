@@ -1,0 +1,59 @@
+[
+  {
+    "metadataOutputVersion" : "3.0",
+    "storagePrecision" : "Float32",
+    "outputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Double",
+        "formattedType" : "MultiArray (Double 3 × 256 × 256)",
+        "shortDescription" : "",
+        "shape" : "[3, 256, 256]",
+        "name" : "resfcn256__Conv2d_transpose_16__Sigmoid__0",
+        "type" : "MultiArray"
+      }
+    ],
+    "modelParameters" : [
+
+    ],
+    "specificationVersion" : 1,
+    "computePrecision" : "Float16",
+    "isUpdatable" : "0",
+    "availability" : {
+      "macOS" : "10.13",
+      "tvOS" : "11.0",
+      "watchOS" : "4.0",
+      "iOS" : "11.0",
+      "macCatalyst" : "11.0"
+    },
+    "neuralNetworkLayerTypeHistogram" : {
+      "Deconvolution" : 17,
+      "Convolution" : 36,
+      "ActivationSigmoid" : 1,
+      "BatchNorm" : 48,
+      "ActivationReLU" : 47,
+      "Add" : 10
+    },
+    "modelType" : {
+      "name" : "MLModelType_neuralNetwork"
+    },
+    "userDefinedMetadata" : {
+
+    },
+    "generatedClassName" : "prnet",
+    "inputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Double",
+        "formattedType" : "MultiArray (Double 3 × 256 × 256)",
+        "shortDescription" : "",
+        "shape" : "[3, 256, 256]",
+        "name" : "Placeholder__0",
+        "type" : "MultiArray"
+      }
+    ],
+    "method" : "predict"
+  }
+]
